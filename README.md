@@ -146,16 +146,27 @@ Estos puntos los presentarás en el `README.md`.
 Debe contener lo siguiente:
 
 * Un título con el nombre de tu proyecto.
+  Tarjeta Valida para compra de prendas online
 * Un resumen de 1 o 2 líneas de qué se trata tu proyecto.
+  La funcionalidad del proyecto es validar el número de una tarjeta de crédito previamente ingresado durante una compra en linea
 * La imagen final de tu proyecto.
+![img final](https://user-images.githubusercontent.com/60928469/75054692-8f5e2100-54a1-11ea-8da1-94f680af2406.png)
+
 * Investigación UX:
   1. Explicar quiénes son los usuarios y los objetivos en relación con el
     producto.
+    Los usuarios son compradoras que necesitan validar su tarjeta como parte del proceso de pago online
   2. Explicar cómo el producto soluciona los problemas/necesidades de dichos
     usuarios.
+    Hace mas seguro el pago online en una tienda de ropa virtual
   3. Luego colocarás la foto de tu primer prototipo en papel.
+![prototipo  en papel](https://user-images.githubusercontent.com/60928469/75124560-0c45f200-567e-11ea-84e9-c1019b2d1b7b.jpeg)
+
   4. Agregar un resumen del feedback recibido indicando las mejoras a realizar.
+    Como primera opcion pense en inclcuit tods los mensajes en alerts y agregar detalles como la fecha expiracion y codigo de seguridad de la tarjeta, luego de varios feedback cambie las alerts por un mensaje en pantalla y me enfoque mas en la funcionalidad para empezar, esto me permitio agregar luego mas imagenes y campos que en una compra real si se solicitan como el nombre y el email
   5. Imagen del prototipo final.
+  ![prototipo](https://user-images.githubusercontent.com/60928469/75054907-00053d80-54a2-11ea-9fc1-e4bb45e57880.png)
+
 
 #### Visualmente (HTML y CSS)
 

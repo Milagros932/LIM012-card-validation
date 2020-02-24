@@ -33,7 +33,7 @@ if(numeroTarjeta === "") {
       primeraVista.style.display = 'none';
       segundaVista.style.display = 'block';
        const mensajeResultadoValido = document.getElementById("mensaje2");
-       mensajeResultadoValido.innerHTML= (name+'tu tarjeta'+ ocultar + ' '+'es valida');
+       mensajeResultadoValido.innerHTML= ('   '+name+'tu tarjeta'+ ocultar + ' '+'es valida');
     }else {
         const mensajeResultadoInvalido = document.getElementById("mensaje1");
        mensajeResultadoInvalido.innerHTML= (name+'tu tarjeta'+ ' '+ocultar + ' '+'es invalida'+' '+'no se ejecuto tu pago');
