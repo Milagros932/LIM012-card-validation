@@ -50,45 +50,45 @@ Reflexiona y luego marca los objetivos que has llegado a **entender** y
 
 ### UX
 
-* [ ] [Diseñar la aplicación pensando y entendiendo al usuario](https://lms.laboratoria.la/cohorts/lim-2020-01-bc-core-lim012/courses/intro-ux/01-el-proceso-de-diseno/00-el-proceso-de-diseno)
-* [ ] [Crear prototipos para obtener feedback e iterar](https://lms.laboratoria.la/cohorts/lim-2020-01-bc-core-lim012/courses/product-design/00-sketching/00-sketching)
-* [ ] [Aplicar los principios de diseño visual](https://lms.laboratoria.la/cohorts/lim-2020-01-bc-core-lim012/courses/product-design/01-visual-design/01-visual-design-basics)
+* [x] [Diseñar la aplicación pensando y entendiendo al usuario](https://lms.laboratoria.la/cohorts/lim-2020-01-bc-core-lim012/courses/intro-ux/01-el-proceso-de-diseno/00-el-proceso-de-diseno)
+* [x] [Crear prototipos para obtener feedback e iterar](https://lms.laboratoria.la/cohorts/lim-2020-01-bc-core-lim012/courses/product-design/00-sketching/00-sketching)
+* [x] [Aplicar los principios de diseño visual](https://lms.laboratoria.la/cohorts/lim-2020-01-bc-core-lim012/courses/product-design/01-visual-design/01-visual-design-basics)
 
 ### HTML y CSS
 
-* [ ] [Uso correcto de HTML semántico](https://developer.mozilla.org/en-US/docs/Glossary/Semantics#Semantics_in_HTML)
-* [ ] [Uso de selectores de CSS](https://developer.mozilla.org/es/docs/Web/CSS/Selectores_CSS)
-* [ ] [Construir tu aplicación respetando el diseño realizado](https://lms.laboratoria.la/cohorts/lim-2020-01-bc-core-lim012/courses/css/01-css/02-boxmodel-and-display) (maquetación).
+* [x] [Uso correcto de HTML semántico](https://developer.mozilla.org/en-US/docs/Glossary/Semantics#Semantics_in_HTML)
+* [x] [Uso de selectores de CSS](https://developer.mozilla.org/es/docs/Web/CSS/Selectores_CSS)
+* [x] [Construir tu aplicación respetando el diseño realizado](https://lms.laboratoria.la/cohorts/lim-2020-01-bc-core-lim012/courses/css/01-css/02-boxmodel-and-display) (maquetación).
 
 ### DOM
 
 * [ ] [Uso de selectores de nodos del DOM](https://lms.laboratoria.la/cohorts/lim-2020-01-bc-core-lim012/courses/browser/02-dom/03-1-dom-methods-selection)
-* [ ] [Manejo de eventos del DOM](https://lms.laboratoria.la/cohorts/lim-2020-01-bc-core-lim012/courses/browser/02-dom/04-events)
-* [ ] [Manipulación dinámica del DOM](https://developer.mozilla.org/es/docs/Referencia_DOM_de_Gecko/Introducci%C3%B3n)
+* [x] [Manejo de eventos del DOM](https://lms.laboratoria.la/cohorts/lim-2020-01-bc-core-lim012/courses/browser/02-dom/04-events)
+* [x] [Manipulación dinámica del DOM](https://developer.mozilla.org/es/docs/Referencia_DOM_de_Gecko/Introducci%C3%B3n)
 
 ### Javascript
 
-* [ ] [Manipulación de strings](https://lms.laboratoria.la/cohorts/lim-2020-01-bc-core-lim012/courses/javascript/06-strings/01-strings)
-* [ ] [Uso de condicionales](https://lms.laboratoria.la/cohorts/lim-2020-01-bc-core-lim012/courses/javascript/02-flow-control/01-conditionals-and-loops)
-* [ ] [Uso de bucles](https://lms.laboratoria.la/cohorts/lim-2020-01-bc-core-lim012/courses/javascript/02-flow-control/02-loops)
-* [ ] [Uso de funciones](https://lms.laboratoria.la/cohorts/lim-2019-09-bc-core-lim011/courses/javascript/02-flow-control/03-functions)
-* [ ] [Datos atómicos y estructurados](https://www.todojs.com/tipos-datos-javascript-es6/)
-* [ ] Utilizar ES Modules (`import` | `export`).
+* [x] [Manipulación de strings](https://lms.laboratoria.la/cohorts/lim-2020-01-bc-core-lim012/courses/javascript/06-strings/01-strings)
+* [x] [Uso de condicionales](https://lms.laboratoria.la/cohorts/lim-2020-01-bc-core-lim012/courses/javascript/02-flow-control/01-conditionals-and-loops)
+* [x] [Uso de bucles](https://lms.laboratoria.la/cohorts/lim-2020-01-bc-core-lim012/courses/javascript/02-flow-control/02-loops)
+* [x] [Uso de funciones](https://lms.laboratoria.la/cohorts/lim-2019-09-bc-core-lim011/courses/javascript/02-flow-control/03-functions)
+* [x] [Datos atómicos y estructurados](https://www.todojs.com/tipos-datos-javascript-es6/)
+* [x] Utilizar ES Modules (`import` | `export`).
 
 ### Testing
 
-* [ ] [Testeo de tus funciones](https://jestjs.io/docs/es-ES/getting-started)
+* [x] [Testeo de tus funciones](https://jestjs.io/docs/es-ES/getting-started)
 
 ### Git y GitHub
 
-* [ ] [Comandos de git](https://lms.laboratoria.la/cohorts/lim-2019-09-bc-core-lim011/courses/scm/01-git/04-commands)
+* [x] [Comandos de git](https://lms.laboratoria.la/cohorts/lim-2019-09-bc-core-lim011/courses/scm/01-git/04-commands)
   (`add` | `commit` | `pull` | `status` | `push`).
-* [ ] [Manejo de repositorios de GitHub](https://lms.laboratoria.la/cohorts/lim-2019-09-bc-core-lim011/courses/scm/02-github/01-github)  (`clone` | `fork` | `gh-pages`).
+* [x] [Manejo de repositorios de GitHub](https://lms.laboratoria.la/cohorts/lim-2019-09-bc-core-lim011/courses/scm/02-github/01-github)  (`clone` | `fork` | `gh-pages`).
 
 ### Buenas prácticas de desarrollo
 
-* [ ] Organizar y dividir el código en módulos (Modularización).
-* [ ] Uso de identificadores descriptivos (Nomenclatura | Semántica).
+* [x] Organizar y dividir el código en módulos (Modularización).
+* [x] Uso de identificadores descriptivos (Nomenclatura | Semántica).
 * [ ] Uso de linter para seguir buenas prácticas (ESLINT).
 
 ## 4. Consideraciones generales
@@ -146,21 +146,21 @@ Estos puntos los presentarás en el `README.md`.
 Debe contener lo siguiente:
 
 * Un título con el nombre de tu proyecto.
-  Tarjeta Valida para compra de prendas online
+  Validacion de tarjeta para compra online
 * Un resumen de 1 o 2 líneas de qué se trata tu proyecto.
-  La funcionalidad del proyecto es validar el número de una tarjeta de crédito previamente ingresado durante una compra en linea
+  El proyecto realiza una validacion del numero tarjeta como parte de un proceso de compra en una pagina de ropa femenina.Si este numero es valido permite continuar con la compra y si no indica que tal tarjeta es invalida y se le muestra al usurio que reconfirme su numer de tarjeta. Agregando datos como nombre y correo del usuario para almacenarlos como parte del proceso de validacion.
 * La imagen final de tu proyecto.
-![img final](https://user-images.githubusercontent.com/60928469/75054692-8f5e2100-54a1-11ea-8da1-94f680af2406.png)
+![Captura de pantalla (7)](https://user-images.githubusercontent.com/60928469/75792023-652b1f80-5d3b-11ea-84d9-6f984a41de63.png)
 
 * Investigación UX:
   1. Explicar quiénes son los usuarios y los objetivos en relación con el
     producto.
-    Los usuarios son compradoras que necesitan validar su tarjeta como parte del proceso de pago online
+    Los usuarios son compradoras que para poder comprar una prenda(s) online deben agregar un numero de tarjeta valido para que se ejecuto el pago y se registren sus datos para el envio de la prenda.
   2. Explicar cómo el producto soluciona los problemas/necesidades de dichos
     usuarios.
-    Hace mas seguro el pago online en una tienda de ropa virtual
+    Hace mas seguro el pago online en una tienda de ropa virtual.Ademas que con esos datos se puede hacer suguimiento de su producto.
   3. Luego colocarás la foto de tu primer prototipo en papel.
-![prototipo  en papel](https://user-images.githubusercontent.com/60928469/75124560-0c45f200-567e-11ea-84e9-c1019b2d1b7b.jpeg)
+  ![prototipo1](https://user-images.githubusercontent.com/60928469/75792109-7e33d080-5d3b-11ea-9de4-656956b28c26.jpeg)
 
   4. Agregar un resumen del feedback recibido indicando las mejoras a realizar.
     Como primera opcion pense en inclcuit tods los mensajes en alerts y agregar detalles como la fecha expiracion y codigo de seguridad de la tarjeta, luego de varios feedback cambie las alerts por un mensaje en pantalla y me enfoque mas en la funcionalidad para empezar, esto me permitio agregar luego mas imagenes y campos que en una compra real si se solicitan como el nombre y el email

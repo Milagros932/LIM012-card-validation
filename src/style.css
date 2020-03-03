@@ -1,238 +1,139 @@
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
 body{
     margin: 0;
-    padding:20px;
     background-color: #ffff;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: monospace;
   }
-h11{
-  position: absolute;
-  top: -87%;
-  bottom: 0%;
-  font-family: Overlock;
-      font-style: normal;
-      font-weight: bold;
-      font-size: 24px;
-      line-height: 29px;
-      display: flex;
-      align-items: center;
-      text-transform: capitalize;
-      font-feature-settings: 'cpsp' on;
-      color: #FF5F6B;
-
-}
-  h1 {
-    color: black;
-    font-family :monospace;
-    font-size:7vh;
-    font-style: normal;
-    font: 'Consolas';
-    text-transform: uppercase;
-    position: absolute;
-    left: 50%;
-    top:20%;
-    transform: translatex(-50%)translateY(-250%);
+  .main-header{
+    background-color:  #pink;
+    color: white;
+    line-height: 1;
     text-align: center;
   }
-h11{
-  position: absolute;
-  top: -87%;
-  font-family: Overlock;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 24px;
-  line-height: 29px;
+
+.headersuperior{
+  background-color: #333333;
+  text-align: right;
+}
+
+.headersuperior p {
+  color: white;
+  text-align: center;
+}
+
+.main-nav{
+  background-color: #333333;
+}
+
+.nav-conteiner{
+  text-align: center;
+  line-height: 2.5;
+  border-bottom: 1px solid white;
+  display: table-cell;
+  padding: 10px 11.4vh;
+}
+.nav-conteiner:hover {
+  background-color: pink;
+  cursor: pointer;
+}
+.nav-conteiner-word{
+  color: white;
+
+}
+.main-logo{
+  padding: 2%;
+}
+.main-conteiner{
   display: flex;
-  align-items: center;
-  text-transform: capitalize;
-  font-feature-settings: 'cpsp' on;
-  color: #FF5F6B;
-}
-h7{
-  position: absolute;
-left: 15vh;
-right: 55.04%;
-top: -5px;
-font-family: Pattaya;
-font-style: normal;
-font-weight: normal;
-font-size: 40px;
-line-height: 89px;
-display: flex;
-align-items: center;
-text-transform: capitalize;
-font-feature-settings: 'cpsp' on;
-color: #FF5E69;
-}
-.cand{
-     height: 70px;
-     margin: 0;
-     padding:0;
-     transform: translateY(-10px);
-  }
-
-.fronter{
-  position: absolute;
-left: 0%;
-right: 0%;
-top: 0%;
-bottom: 0%;
-
-
-}
-h8{
-position: relative;
-left: 24.93%;
-right: 22.64%;
-top: 12.04%;
-bottom: 12.04%;
-
-font-family: Overlock;
-font-style: normal;
-font-weight: bold;
-font-size: 52px;
-line-height: 63px;
-display: flex;
-align-items: center;
+  flex-direction:column;
+  background:white;
 text-align: center;
-text-transform: capitalize;
-color: white;
+}
+.centro{
+justify-content: : center;
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+
+  margin:auto;
+}
+aside.left{
+  background-color: #ffff;
+  min-height: 400px;
+  float:left;
+padding: 8px;
 
 }
-.contenedor{
-    position: absolute;
-    left: 0%;
-    right: 0%;
-    top: 70px;
-      background: #FFFFFF;
-      border: 4px solid rgb(253,157,171);
-    box-sizing: border-box;
-    border-radius: 30px;
-    text-align: center;
-    justify-content: center;
+.left img{
+  width:400px;height:510px;
+}
+section.icons{
+  float: right;
+}.icons img{
+  width: 50px;
+  height: 50px;
+  padding-left: 2vh;
+}
+
+.resumen-compra{
+  width: 200px;
+  height: 300px;
+  background-color:pink;
+  margin:10px;
+  box-sizing:border-box;
+}
+
+.nombre-email input[type=text]{
     position: relative;
-    width: 252px;
-    height: 353px;
-  }
-.contenedor h2{
-    position: absolute;
-    left: 3.54%;
-    right: -2.78%;
-    top: 7.65%;
-    bottom: 80.74%;
-
-    font-family: 'Candara';
-    font-style: normal;
-    font-weight: bold;
-    font-size: 30px;
-    line-height: 37px;
-    display: flex;
-    align-items: center;
-    text-transform: capitalize;
-
-    color: #FF5F5F;}
-.contenedor p{
-
-    position: absolute;
-    left: 7.54%;
-    right: 0%;
-    top: 22.95%;
-    bottom: 44.48%;
-
-      font-family: 'Candara';
-    font-style: normal;
-    font-weight: 200;
-    font-size: 30px;
-    line-height: 44px;
-    display: flex;
-    align-items: center;
-    text-transform: capitalize;
-
-    color: #000000;
-    }
-
-.contenedor  h3{
-    text-align:right;
-    position: absolute;
-    left: 16.27%;
-    right: 12.3%;
-    top: 66.29%;
-    bottom: 6.8%;
-
-    font-family: Oswald;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 30px;
-    line-height: 44px;
-    display: flex;
-    align-items: center;
-    text-transform: capitalize;
-    color: #1EB8B4;
-      }
-h4{
-     position: relative;
-      left: 23%;
-      right: 0%;
-      transform: translateY(-340px);
-      bottom: 85.78%;
-      font-family: 'Candara';
-      font-style:normal;
-      font-weight: 300;
-      font-size: 35px;
-      line-height: 54px;
-      display: flex;
-      align-items: center;
-      text-transform: capitalize;
-      font-weight: bold;
-      color: #000000;
-      }
-.ident input[type=text]{
-    position: absolute;
     width: 30%;
-    border:2px solid #aaa;
-    border-radius: 7px;
-    margin:8px 0;
+    border: none;
+    border-bottom: 1px solid #3333;
+    background: transparent;
     outline: none;
-    padding: 8px;
+    height: 7vh;
+    color: black;
+    padding: 5px ;
     box-sizing: border-box;
     transition:3s;
   }
-h5{
-    position: absolute;
-    left: 24%;
-    right: 0%;
-    top: 30%;
-    bottom: 27.99%;
-    font-family: sans-serif;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 35px;
-    line-height: 54px;
-    display: flex;
-    align-items: center;
-    text-transform: capitalize;
-    color: #000000;
-    font-family: 'Candara';
-font-weight: bold;
-      }
-h6{
-  position: absolute;
-  left: 24%;
-  right: 0%;
-  top: 55%;
-  bottom: 27.99%;
-  font-family: sans-serif;
-  font-style: normal;
-  font-weight: 300;
-  font-size: 35px;
-  line-height: 54px;
-  display: flex;
-  align-items: center;
-  text-transform: capitalize;
-  font-family: 'Candara';
-  font-weight: bold;
-  color: #000000;
 
-    }
-  }
+h1{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+}
+
+.tarjeta{
+    position: relative;
+    width: 30%;
+    border: none;
+    border-bottom: 1px solid #3333;
+    background: transparent;
+    outline: none;
+    height: 7vh;
+    color: black;
+    padding: 5px;
+    box-sizing: border-box;
+    transition:3s;
+}
+.resumen-compra-texto{
+      font-family: 'Candara';
+      font-style: normal;
+      font-weight: bold;
+      font-size: 20px;
+      line-height: 37px;
+      display: flex;
+      align-items: center;
+      text-transform: capitalize;}
+}
 .radio{
     text-transform: capitalize;
     display: inline-block;
@@ -251,85 +152,37 @@ h6{
     font-size: 1em;
     border-radius: 4px;
     cursor: pointer;
-  -webkit-transition:all 0.3 ease;
-  -o-transition:all 0.3 ease;
-  transition: all 0.3 ease;
   }
 .radio label:hover{
     background: rgb(30,184,180);
-  }
-.tarjeta{
-    position: absolute;
-    width: 30%;
-    border:2px solid #aaa;
-    border-radius: 7px;
-    margin:8px 0;
-    outline: none;
-    padding: 8px;
-    box-sizing: border-box;
-    transition:3s;
-    left:31.55%;
-    top: 70%;
-  }
-  h9{
-    font-family: 'Candara';
-font-weight: bold;
-    font-style: normal;
-    font-size: 18px;
-    line-height: 44px;
-    display: flex;
-    align-items: center;
-    text-transform: capitalize;
-    color: #000000;
-    top: 50%;
-    transform: translatex(30%)translateY(-250px);
-  }
-  h10{
-    position: absolute;
-width: 597px;
-height: 220px;
-left: 70%;
-right: 0%;
-font-family:' Overpass';
-font-style: normal;
-font-weight: 900;
-font-size: 50px;
-line-height: 100px;
-display: flex;
-align-items: center;
-text-transform: capitalize;
-color: #FFF741;
-font-weight: bolder;
   }
 
 .button{
   width:350PX;
   height: 50px;
-  background: #1EB8B4;
+  background: pink;
   border-radius: 9em ;
   cursor: pointer;
   left: 20%;
   top:100%;
   margin-left: auto;
   margin-right: auto;
-   transform: translatex(110%)translateY(-240px);
-   font-family: monospace;
-   font-size: 4vh;
-   font-style: normal;
-   color:#ffff;
+  font-family: monospace;
+  font-size: 4vh;
+  font-style: normal;
+  color:#ffff;
 }
 .button :hover{
   background: grey;
 }
-.numero p{
-color:red;text-align:center;
- transform:translateY(-370px);
-}
-.segundaparte{
-  margin: 0%;
-  padding: 0%;
-  background:#1EB8B4;
-  background-position: center;
+.mensaje-validado{
+  margin-top :20vh;
   align-items: center;
+  text-align: center;
+  justify-content:center;
+}
+.check  {
+  width: 200px;
+  height: 200px;
 
 }

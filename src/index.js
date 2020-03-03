@@ -15,17 +15,10 @@ let name = document.getElementById('nombre').value;
 const expresion = /[^0-9]/;
 
 if(numeroTarjeta === "") {
-
   document.getElementById("mensaje1").innerHTML = 'Este campo es obligatorio';
 } else if (expresion.test(numeroTarjeta)) {
   document.getElementById("mensaje1").innerHTML= 'Debe ingresar solo 16 numeros';
 } else {
-
-//Algoritmo de luhm
-//if (numeroTarjeta.length==16) {
-
-  //const mensajito = document.getElementById('mensaje');
-  //mensajito.innerHTML = resultado;
  const resultado = validator.isValid(numeroTarjeta);
  const ocultar = validator.maskify(numeroTarjeta);
 
@@ -33,10 +26,10 @@ if(numeroTarjeta === "") {
       primeraVista.style.display = 'none';
       segundaVista.style.display = 'block';
        const mensajeResultadoValido = document.getElementById("mensaje2");
-       mensajeResultadoValido.innerHTML= ('   '+name+'tu tarjeta'+ ocultar + ' '+'es valida');
+       mensajeResultadoValido.innerHTML= (name+' '+'tu tarjeta'+ ocultar + ' '+'es valida');
     }else {
         const mensajeResultadoInvalido = document.getElementById("mensaje1");
-       mensajeResultadoInvalido.innerHTML= (name+'tu tarjeta'+ ' '+ocultar + ' '+'es invalida'+' '+'no se ejecuto tu pago');
+       mensajeResultadoInvalido.innerHTML= (name+' '+'tu tarjeta'+ ' '+ocultar + ' '+'es invalida'+' '+'no se ejecuto tu pago');
      document.getElementById("mensaje1").style.display = "block";
             }
 //}else {
