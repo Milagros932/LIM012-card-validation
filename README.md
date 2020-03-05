@@ -83,13 +83,13 @@ Reflexiona y luego marca los objetivos que has llegado a **entender** y
 
 * [x] [Comandos de git](https://lms.laboratoria.la/cohorts/lim-2019-09-bc-core-lim011/courses/scm/01-git/04-commands)
   (`add` | `commit` | `pull` | `status` | `push`).
-* [x] [Manejo de repositorios de GitHub](https://lms.laboratoria.la/cohorts/lim-2019-09-bc-core-lim011/courses/scm/02-github/01-github)  (`clone` | `fork` | `gh-pages`).
+* [ ] [Manejo de repositorios de GitHub](https://lms.laboratoria.la/cohorts/lim-2019-09-bc-core-lim011/courses/scm/02-github/01-github)  (`clone` | `fork` | `gh-pages`).
 
 ### Buenas prácticas de desarrollo
 
 * [x] Organizar y dividir el código en módulos (Modularización).
 * [x] Uso de identificadores descriptivos (Nomenclatura | Semántica).
-* [ ] Uso de linter para seguir buenas prácticas (ESLINT).
+* [x] Uso de linter para seguir buenas prácticas (ESLINT).
 
 ## 4. Consideraciones generales
 
